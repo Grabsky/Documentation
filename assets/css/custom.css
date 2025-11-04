@@ -1,0 +1,27 @@
+.content {
+    margin-top: 2em !important;
+}
+
+table {
+    outline: 1px solid var(--hx-color-neutral-800);
+    tr:last-child {
+        border-bottom: none;
+    }
+}
+
+table, th, td {
+    border-radius: 10px;
+    padding: 8px 12px 8px 6px !important;
+}
+
+.hextra-card {
+    .hextra-card-icon {
+        padding: 12px !important;
+    }
+}
+
+.hextra-banner {
+    color: darkorange;
+    background-color: color-mix(in srgb, 90% transparent, 10% darkorange)
+}
+
