@@ -14,11 +14,12 @@ List of all available commands with descriptions, permissions and a couple of ex
 
 <!------  Display > Help  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Help</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Help</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Shows list of available commands.
@@ -34,11 +35,12 @@ Shows list of available commands.
 
 <!------  Display > Create  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Create</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Create</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Creates display of the specified type. Type can be **text**, **item**, **block**, **interaction** or **mannequin**. 
@@ -54,11 +56,12 @@ Creates display of the specified type. Type can be **text**, **item**, **block**
 
 <!------  Display > Delete  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Delete</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Delete</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Deletes specified entity from the world. This action is irreversible.
@@ -74,11 +77,12 @@ Deletes specified entity from the world. This action is irreversible.
 
 <!------  Display > Clone  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Clone</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Clone</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Clones specified display to a new one.
@@ -94,11 +98,12 @@ Clones specified display to a new one.
 
 <!------  Display > Respawn  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Respawn</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Respawn</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Respawns specified display. Use it after adding placeholders or modifying placeholder refresh interval.
@@ -114,11 +119,12 @@ Respawns specified display. Use it after adding placeholders or modifying placeh
 
 <!------  Display > Teleport  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Teleport</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Teleport</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Teleports you to the specified display.
@@ -134,11 +140,12 @@ Teleports you to the specified display.
 
 <!------  Display > Export  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Export</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Export</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Exports specified display to a file.
@@ -154,11 +161,12 @@ Exports specified display to a file.
 
 <!------  Display > Import  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Import</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Import</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Imports specified file to a new display.
@@ -174,11 +182,14 @@ Imports specified file to a new display.
 
 <!------  Display > Edit > Scale  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Scale</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Scale</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies scale of the specified display.
@@ -194,11 +205,14 @@ Modifies scale of the specified display.
 
 <!------  Display > Edit > View Range  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; View Range</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; View Range</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies view range of the specified display. Range must be a value between **0.0** and **1.0**.
@@ -214,11 +228,14 @@ Modifies view range of the specified display. Range must be a value between **0.
 
 <!------  Display > Edit > Billboard  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Billboard</div>
-  <div style="float:right">{{< badge color="purple" content="Text Display">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Billboard</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies billboard of the specified text display. Billboard can be **fixed**, **center**, **horizontal** or **vertical**.
@@ -234,11 +251,14 @@ Modifies billboard of the specified text display. Billboard can be **fixed**, **
 
 <!------  Display > Edit > Brightness  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Brightness</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Brightness</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies brightness of the specified display. Brightness must be a value between 0 and 15.
@@ -254,11 +274,14 @@ Modifies brightness of the specified display. Brightness must be a value between
 
 <!------  Display > Edit > Rotate X  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Rotate X</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Rotate X</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Rotates specified display for specified amount of degrees around X axis. Works only when billboard is fixed.
@@ -274,11 +297,14 @@ Rotates specified display for specified amount of degrees around X axis. Works o
 
 <!------  Display > Edit > Rotate Y  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Rotate Y</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Rotate Y</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Rotates specified display for specified amount of degrees around Y axis. Works only when billboard is fixed.
@@ -294,11 +320,16 @@ Rotates specified display for specified amount of degrees around Y axis. Works o
 
 <!------  Display > Edit > Move To  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Move To</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}} {{< badge color="yellow" content="Interaction">}} {{< badge color="red" content="Mannequin">}}</div> 
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Move To</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+    {{< badge color="yellow" content="Interaction">}}
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Teleport specified display to the specified coordinates.  
@@ -319,11 +350,15 @@ Teleporting to your position can be done using selectors.
 
 <!------  Display > Edit > Glow  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Glow</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}} {{< badge color="blue" content="Item">}} {{< badge color="green" content="Block">}} {{< badge color="red" content="Mannequin">}}</div> 
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Glow</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+    {{< badge color="blue" content="Item">}}
+    {{< badge color="green" content="Block">}}
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies glow state and/or changes color of the specified display.  
@@ -347,11 +382,12 @@ Setting glow color to **light_blue**.
 
 <!------  Display > Edit > Add Line  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Add Line</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Add Line</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Adds new line to text contents of the specified text display.  
@@ -368,11 +404,12 @@ Supports [MiniMessage](https://docs.advntr.dev/minimessage/format.html#standard-
 
 <!------  Display > Edit > Remove Line  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Remove Line</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Remove Line</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Removes line at the specified position.
@@ -389,11 +426,12 @@ Removes line at the specified position.
 
 <!------  Display > Edit > Set Line  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Set Line</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Set Line</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Sets line at specified position to the specified text.  
@@ -410,11 +448,12 @@ Supports [MiniMessage](https://docs.advntr.dev/minimessage/format.html#standard-
 
 <!------  Display > Edit > Insert Line  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Insert Line</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Insert Line</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Inserts new line **before** the specified position.  
@@ -431,11 +470,12 @@ Supports [MiniMessage](https://docs.advntr.dev/minimessage/format.html#standard-
 
 <!------  Display > Edit > Refresh Interval  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Refresh Interval</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Refresh Interval</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies ticks interval at which specified text display will be refreshed to all viewers.  
@@ -453,11 +493,12 @@ Interval can also be set to `default` which makes it use a value specified in co
 
 <!------  Display > Edit > Alignment  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Alignment</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Alignment</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies text alignment of the specified text display. Alignment can be **left**, **right** or **center**.
@@ -473,11 +514,12 @@ Modifies text alignment of the specified text display. Alignment can be **left**
 
 <!------  Display > Edit > Background  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Background</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Background</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies background color of the specified text display.  
@@ -502,11 +544,12 @@ Opacity, if unspecified, defaults to fully opaque.
 
 <!------  Display > Edit > Line Width  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Line Width</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Line Width</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies line width of the specified text display.
@@ -522,11 +565,12 @@ Modifies line width of the specified text display.
 
 <!------  Display > Edit > See Through  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; See Through</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; See Through</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies see through state of the specified text display.
@@ -542,11 +586,12 @@ Modifies see through state of the specified text display.
 
 <!------  Display > Edit > Text Shadow  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Text Shadow</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Text Shadow</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies text shadow state of the specified text display.
@@ -562,11 +607,12 @@ Modifies text shadow state of the specified text display.
 
 <!------  Display > Edit > Text Opacity  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Text Opacity</div>
-  <div style="float:right">{{< badge color="purple" content="Text">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Text Opacity</h4>
+  <div>
+    {{< badge color="purple" content="Text">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies text opacity of the specified text display.  
@@ -583,11 +629,12 @@ Opacity is specified in percentage, where **0%** is fully transparent, and **100
 
 <!------  Display > Edit > Block  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Block</div>
-  <div style="float:right">{{< badge color="green" content="Block">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Block</h4>
+  <div>
+    {{< badge color="green" content="Block">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies the block that is represented by the specified block display. Block can be a predefined block type, or currently held block. Latter can be set with **@main_hand** or **@off_hand** selector.
@@ -603,11 +650,12 @@ Modifies the block that is represented by the specified block display. Block can
 
 <!------  Display > Edit > Item  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Item</div>
-  <div style="float:right">{{< badge color="blue" content="Item">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Item</h4>
+  <div>
+    {{< badge color="blue" content="Item">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies the item that is represented by the specified item display. Item can be a predefined item type, or currently held item. Latter can be set with **@main_hand** or **@off_hand** selector.
@@ -623,11 +671,12 @@ Modifies the item that is represented by the specified item display. Item can be
 
 <!------  Display > Edit > Width  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Width</div>
-  <div style="float:right">{{< badge color="yellow" content="Interaction">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Width</h4>
+  <div>
+    {{< badge color="yellow" content="Interaction">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies width of the specified interaction entity.
@@ -643,11 +692,12 @@ Modifies width of the specified interaction entity.
 
 <!------  Display > Edit > Height  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Height</div>
-  <div style="float:right">{{< badge color="yellow" content="Interaction">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Height</h4>
+  <div>
+    {{< badge color="yellow" content="Interaction">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies height of the specified interaction entity.
@@ -663,11 +713,12 @@ Modifies height of the specified interaction entity.
 
 <!------  Display > Edit > Response  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Response</div>
-  <div style="float:right">{{< badge color="yellow" content="Interaction">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Response</h4>
+  <div>
+    {{< badge color="yellow" content="Interaction">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies response state of the specified interaction entity.
@@ -683,11 +734,12 @@ Modifies response state of the specified interaction entity.
 
 <!------  Display > Edit > Skin  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Skin</div>
-  <div style="float:right">{{< badge color="red" content="Mannequin">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Skin</h4>
+  <div>
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Modifies skin of the specified mannequin entity.
@@ -707,11 +759,13 @@ Modifies skin of the specified mannequin entity.
 
 <!------  Display > Edit > Pose  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Skin</div>
-  <div style="float:right">{{< badge color="red" content="Mannequin">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Pose</h4>
+  <div>
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
+
 
 <u>**Description**</u>  
 Modifies pose of the specified mannequin entity. Pose can be **standing**, **sneaking**, **swimming**, **fall_flying**, **sleeping** or **sitting**.
@@ -727,11 +781,13 @@ Modifies pose of the specified mannequin entity. Pose can be **standing**, **sne
 
 <!------  Display > Edit > Custom Name  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Custom Name</div>
-  <div style="float:right">{{< badge color="red" content="Mannequin">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Custom Name</h4>
+  <div>
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
+
 
 <u>**Description**</u>  
 Modifies custom name of the specified mannequin entity. Custom name is what is displayed above mannequin's head.
@@ -747,11 +803,13 @@ Modifies custom name of the specified mannequin entity. Custom name is what is d
 
 <!------  Display > Edit > Description  ------->
 
-<h4 style="display:flex; justify-content:space-between;">
-  <div style="float:left">Edit &nbsp; ⟶ &nbsp; Description</div>
-  <div style="float:right">{{< badge color="red" content="Mannequin">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Description</h4>
+  <div>
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
+
 
 <u>**Description**</u>  
 Modifies description of the specified mannequin entity. Description is what is displayed below mannequin's custom name.

@@ -14,11 +14,12 @@ List of all available commands with descriptions, permissions and a couple of ex
 
 <!------  Recipes > Reload  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Reload</div>
-  <div style="float:right">{{< badge content="Management">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Reload</h4>
+  <div>
+    {{< badge content="Management">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Reloads recipes, items and the configuration file.
@@ -34,11 +35,13 @@ Reloads recipes, items and the configuration file.
 
 <!------  Recipes > List Recipes  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">List Recipes</div>
-  <div style="float:right">{{< badge content="Management">}} {{< badge content="Recipes" color="green">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>List Recipes</h4>
+  <div>
+    {{< badge content="Management">}}
+    {{< badge content="Recipes" color="green">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Lists all recipes added, or overridden by this plugin.
@@ -54,11 +57,13 @@ Lists all recipes added, or overridden by this plugin.
 
 <!------  Recipes > List Items  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">List Items</div>
-  <div style="float:right">{{< badge content="Management">}} {{< badge content="Custom Items" color="yellow">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>List Items</h4>
+  <div>
+    {{< badge content="Management">}}
+    {{< badge content="Custom Items" color="yellow">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Lists all registered custom items.
@@ -74,11 +79,13 @@ Lists all registered custom items.
 
 <!------  Recipes > Register Item  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Register Item</div>
-  <div style="float:right">{{< badge content="Management">}} {{< badge content="Custom Items" color="yellow">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Register Item</h4>
+  <div>
+    {{< badge content="Management">}}
+    {{< badge content="Custom Items" color="yellow">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Registers item currently held in the main hand as a custom item.  
@@ -95,11 +102,13 @@ Registered items can be referenced in recipes via `registered_item` property.
 
 <!------  Recipes > Unregister Item  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Unregister Item</div>
-  <div style="float:right">{{< badge content="Management">}} {{< badge content="Custom Items" color="yellow">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Unregister Item</h4>
+  <div>
+    {{< badge content="Management">}}
+    {{< badge content="Custom Items" color="yellow">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Unregisters custom item with given identifier.
@@ -115,11 +124,13 @@ Unregisters custom item with given identifier.
 
 <!------  Recipes > Give Item  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Give Item</div>
-  <div style="float:right">{{< badge content="Management">}} {{< badge content="Custom Items" color="yellow">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;"> 
+<div class="ent">
+  <h4>Give Item</h4>
+  <div>
+    {{< badge content="Management">}}
+    {{< badge content="Custom Items" color="yellow">}}
+  </div>
+</div>
 
 <u>**Description**</u>  
 Gives specified custom item to the target.

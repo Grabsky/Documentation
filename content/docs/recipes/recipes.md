@@ -12,10 +12,9 @@ Place your `.json` recipes inside the `plugins/Recipes/recipes` folder, or any s
 
 <br>
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Recipe Components</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;">
+<div class="ent">
+  <h4>Recipe Components</h4>
+</div>
 
 {{% steps %}}
 
@@ -91,11 +90,14 @@ This feature is optional and if left unspecified, the recipe will be automatical
 
 <!------  Crafting Shaped  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Crafting Shaped</div>
-  <div style="float:right">{{< badge content="Crafting Table" color="green">}} {{< badge content="Inventory" color="green">}} {{< badge content="Crafter" color="green">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;">
+<div class="ent">
+  <h4>Crafting Shaped</h4>
+  <div>
+    {{< badge color="green" content="Crafting Table" >}}
+    {{< badge color="green" content="Inventory" >}}
+    {{< badge color="green" content="Crafter" >}}
+  </div>
+</div>
 
 Represents a crafting recipe with shape in a crafting table, player inventory, and the crafter.
 
@@ -140,11 +142,14 @@ Represents a crafting recipe with shape in a crafting table, player inventory, a
 
 <!------  Crafting Shapeless  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Crafting Shapeless</div>
-  <div style="float:right">{{< badge content="Crafting Table" color="green">}} {{< badge content="Inventory" color="green">}} {{< badge content="Crafter" color="green">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;">
+<div class="ent">
+  <h4>Crafting Shapeless</h4>
+  <div>
+    {{< badge color="green" content="Crafting Table" >}}
+    {{< badge color="green" content="Inventory" >}}
+    {{< badge color="green" content="Crafter" >}}
+  </div>
+</div>
 
 Represents a shapeless crafting recipe in a crafting table, player inventory, and the crafter.
 
@@ -176,11 +181,15 @@ Represents a shapeless crafting recipe in a crafting table, player inventory, an
 
 <!------  Smelting, Blasting, Smoking, Campfire Cooking  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Smelting</div>
-  <div style="float:right">{{< badge content="Furnace" color="orange">}} {{< badge content="Blast Furnace" color="orange">}} {{< badge content="Smoker" color="orange">}} {{< badge content="Campfire" color="orange">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;">
+<div class="ent">
+  <h4>Smelting</h4>
+  <div>
+    {{< badge color="orange" content="Furnace" >}}
+    {{< badge color="orange" content="Blast Furnace" >}}
+    {{< badge color="orange" content="Smoker" >}}
+    {{< badge color="orange" content="Campfire" >}}
+  </div>
+</div>
 
 Represents a smelting recipe in a regular furnace, blast furnace, smoker or campfire.
 
@@ -221,11 +230,12 @@ Represents a smelting recipe in a regular furnace, blast furnace, smoker or camp
 
 <!------  Smithing  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Smithing</div>
-  <div style="float:right">{{< badge content="Smithing Table" color="purple">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;">
+<div class="ent">
+  <h4>Smithing</h4>
+  <div>
+    {{< badge color="purple" content="Smithing Table" >}}
+  </div>
+</div>
 
 Represents an upgrading recipe in a smithing table.
 
@@ -258,11 +268,12 @@ Represents an upgrading recipe in a smithing table.
 
 <!------  Stonecutting  ------->
 
-<h4 id="help" style="display:flex; justify-content:space-between;">
-  <div style="float:left">Stonecutting</div>
-  <div style="float:right">{{< badge content="Stonecutter" color="gray">}}</div>
-</h4>
-<hr style="margin:12px 0 0 0; height:1px; color:gray;">
+<div class="ent">
+  <h4>Stonecutting</h4>
+  <div>
+    {{< badge color="gray" content="Stonecutter" >}}
+  </div>
+</div>
 
 Represents a recipe in a stonecutter.
 

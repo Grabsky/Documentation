@@ -25,3 +25,14 @@ table, th, td {
     background-color: color-mix(in srgb, 90% transparent, 10% darkorange)
 }
 
+div.ent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(var(--hx-spacing) * 8);
+    padding-bottom: 0.75em;
+    border-bottom: 1px solid var(--hx-color-neutral-800);
+
+    h4 {
+        margin: 0;
+    }
+}
