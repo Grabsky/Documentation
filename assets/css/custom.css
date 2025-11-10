@@ -35,4 +35,9 @@ div.ent {
     h4 {
         margin: 0;
     }
+
+    div {
+        display: flex;
+        gap: 0.25em;
+    }
 }
