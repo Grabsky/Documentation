@@ -101,12 +101,13 @@ This feature is optional and if left unspecified, the recipe will be automatical
 
 Represents a crafting recipe with shape in a crafting table, player inventory, and the crafter.
 
-| Property   | Required | Decsription |
-| :--------- | :------- | :---------- |
-| `pattern`  | Yes      | Pattern is an array of exactly 2 or 3 elements, reflecting an inventory or crafting table grids. Each array entry must be exactly two or three chracters. |
-| `key`      | Yes      | Key to the pattern represented as characters mapped to recipe choice definitions. Each character must be mapped to exactly one recipe choice.             |
-| `result`   | Yes      | Result item definition. |
-| `discover` | No       | Recipe discover trigger. |
+| Property      | Required | Decsription |
+| :------------ | :------- | :---------- |
+| `key`         | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
+| `pattern`     | Yes      | Pattern is an array of exactly 2 or 3 elements, reflecting an inventory or crafting table grids. Each array entry must be exactly two or three chracters. |
+| `pattern_key` | Yes      | Key to the pattern represented as characters mapped to recipe choice definitions. Each character must be mapped to exactly one recipe choice.             |
+| `result`      | Yes      | Result item definition. |
+| `discover`    | No       | Recipe discover trigger. |
 
 ```json {filename="plugins/Recipes/recipes/emerald_sword.json"}
 {
@@ -155,6 +156,7 @@ Represents a shapeless crafting recipe in a crafting table, player inventory, an
 
 | Property      | Required | Decsription |
 | :------------ | :------- | :---------- |
+| `key`         | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
 | `ingredients` | Yes      | List of recipe ingredients. Each list element is a recipe choice, which can be a single item definition or tag, or list of item definitions or tags. |
 | `result`      | Yes      | Result item definition.  |
 | `discover`    | No       | Recipe discover trigger. |
@@ -195,6 +197,7 @@ Represents a smelting recipe in a regular furnace, blast furnace, smoker or camp
 
 | Property       | Required | Decsription |
 | :------------- | :------- | :---------- |
+| `key`          | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
 | `type`         | Yes      | Type of the smelting recipe. Can be either:<br> `smelting`, `blasting`, `smoking` or `campfire_cooking` |
 | `input`        | Yes      | Input recipe choice. Can be a single item definition or tag, or list of item definitions or tags.       |
 | `result`       | Yes      | Result item definition.                                                                                 |
@@ -240,7 +243,8 @@ Represents a smelting recipe in a regular furnace, blast furnace, smoker or camp
 Represents an upgrading recipe in a smithing table.
 
 | Property          | Required | Decsription |
-| :-------------    | :------- | :---------- |
+| :---------------- | :------- | :---------- |
+| `key`             | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
 | `base`            | Yes      | Ingredient specifying an item to be upgraded. Can be a single item definition or tag, or list of item definitions or tags.       |
 | `template`        | Yes      | Ingredient specifying an item to act as a template. Can be a single item definition or tag, or list of item definitions or tags. |
 | `addition`        | Yes      | Ingredient specifying an item to be added. Can be a single item definition or tag, or list of item definitions or tags.          |
@@ -279,6 +283,7 @@ Represents a recipe in a stonecutter.
 
 | Property   | Required | Decsription |
 | :--------- | :------- | :---------- |
+| `key`      | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
 | `input`    | Yes      | Input recipe choice. Can be a single item definition or tag, or list of item definitions or tags.       |
 | `result`   | Yes      | Result item definition.                                                                                 |
 | `discover` | No       | Recipe discover trigger.                                                                                |
