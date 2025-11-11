@@ -117,7 +117,7 @@ Represents a crafting recipe with shape in a crafting table, player inventory, a
         " E ",
         " S "
     ],
-    "key": {
+    "pattern_key": {
         "E": { "type": "emerald" },
         "S": [
             { "type": "stick" },
@@ -128,7 +128,7 @@ Represents a crafting recipe with shape in a crafting table, player inventory, a
         "type": "diamond_sword",
         "amount": 1,
         "name": "Emerald Sword",
-        "components": "[item_model=myresourcepack:emerald_sword]"
+        "components": "[item_model='myresourcepack:emerald_sword']"
     },
     "discover": {
         "items": [
@@ -161,18 +161,17 @@ Represents a shapeless crafting recipe in a crafting table, player inventory, an
 | `result`      | Yes      | Result item definition.  |
 | `discover`    | No       | Recipe discover trigger. |
 
-```json {filename="plugins/Recipes/recipes/charcoal_from_crafting.json"}
+```json {filename="plugins/Recipes/recipes/nametag.json"}
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        { "tag": "minecraft:logs" },
-        { "type": "flint_and_steel" }
+        { "type": "string" },
+        { "type": "paper" }
     ],
-    "result": { "type": "charcoal" },
+    "result": { "type": "name_tag" },
     "discover": {
         "items": [
-            { "tag": "minecraft:logs" },
-            { "type": "flint_and_steel" }
+            { "type": "paper" }
         ]
     }
 }
