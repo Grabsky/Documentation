@@ -241,15 +241,15 @@ Represents a smelting recipe in a regular furnace, blast furnace, smoker or camp
 
 Represents an upgrading recipe in a smithing table.
 
-| Property          | Required | Decsription |
-| :---------------- | :------- | :---------- |
-| `key`             | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
-| `base`            | Yes      | Ingredient specifying an item to be upgraded. Can be a single item definition or tag, or list of item definitions or tags.       |
-| `template`        | Yes      | Ingredient specifying an item to act as a template. Can be a single item definition or tag, or list of item definitions or tags. |
-| `addition`        | Yes      | Ingredient specifying an item to be added. Can be a single item definition or tag, or list of item definitions or tags.          |
-| `result`          | Yes      | Result item definition.                                                                                                          |
-| `copy_components` | No       | Whether to copy the data components from the base item to the output. (Default: true)                                            |
-| `discover`        | No       | Recipe discover trigger.                                                                                                         |
+| Property              | Required | Decsription |
+| :----------------     | :------- | :---------- |
+| `key`                 | No       | Identifier of the recipe. Fallbacks to `<CONFIGURED_NAMESPACE>:<FILE_PATH>` and should be omitted unless you want to override vanilla, or other plugins' recipes. |
+| `base`                | Yes      | Ingredient specifying an item to be upgraded. Can be a single item definition or tag, or list of item definitions or tags.                                        |
+| `template`            | Yes      | Ingredient specifying an item to act as a template. Can be a single item definition or tag, or list of item definitions or tags.                                  |
+| `addition`            | Yes      | Ingredient specifying an item to be added. Can be a single item definition or tag, or list of item definitions or tags.                                           |
+| `result`              | Yes      | Result item definition.                                                                                                                                           |
+| ~~`copy_components`~~ | No       | ~~Whether to copy the data components from the base item to the output. (Default: true)~~<br>**Currently, components are always copied due to a bug.**             |
+| `discover`            | No       | Recipe discover trigger.                                                                                                                                          |
 
 ```json {filename="plugins/Recipes/recipes/diamond_pickaxe_from_smithing.json"}
 {
