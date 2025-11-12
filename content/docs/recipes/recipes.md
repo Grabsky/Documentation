@@ -248,7 +248,7 @@ Represents an upgrading recipe in a smithing table.
 | `template`            | Yes      | Ingredient specifying an item to act as a template. Can be a single item definition or tag, or list of item definitions or tags.                                                                     |
 | `addition`            | Yes      | Ingredient specifying an item to be added. Can be a single item definition or tag, or list of item definitions or tags.                                                                              |
 | `result`              | Yes      | Result item definition.                                                                                                                                                                              |
-| ~~`copy_components`~~ | No       | ~~Whether to copy the data components from the base item to the output. (Default: true)~~<br>**Currently - due to a bug - this option takes no effect and components are always copied.**            |
+<!-- | ~~`copy_components`~~ | No       | ~~Whether to copy the data components from the base item to the output. (Default: true)~~<br>**Currently - due to a bug - this option takes no effect and components are always copied.**            | -->
 | `discover`            | No       | Recipe discover trigger.                                                                                                                                                                             |
 
 ```json {filename="plugins/Recipes/recipes/diamond_pickaxe_from_smithing.json"}
