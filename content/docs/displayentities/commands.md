@@ -822,3 +822,50 @@ Modifies description of the specified mannequin entity. Description is what is d
 
 <br>
 <br>
+
+<!------  Display > Edit > Description  ------->
+
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Equipment</h4>
+  <div>
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
+
+
+<u>**Description**</u>  
+Modifies equipment of the specified mannequin entity.  
+\- Slot can be **head**, **chest**, **legs**, **feet**, **hand** or **off_hand**.  
+\- Item can be an item type (e.g. **minecraft:iron_sword**), **@main_hand**, **@off_hand** or **@nothing**.
+
+<u>**Syntax**</u>  
+`/display edit (display) equipment (slot) (item)`
+
+<u>**Permission**</u>  
+`displayentities.command.display.edit.equipment`
+
+<br>
+<br>
+
+<!------  Display > Edit > Track Nearest Player  ------->
+
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Track Nearest Player</h4>
+  <div>
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
+
+
+<u>**Description**</u>  
+Modifies nearest player tracking state. This state describes whether mannequins will look at nearby players.  
+<sup>This is applied for each player individually and thus requires **[PacketEvents](https://modrinth.com/plugin/packetevents)**.</sup>
+
+<u>**Syntax**</u>  
+`/display edit (display) track_nearest_player (true | false)`
+
+<u>**Permission**</u>  
+`displayentities.command.display.edit.track_nearest_player`
+
+<br>
+<br>
