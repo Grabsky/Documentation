@@ -4,7 +4,7 @@ type: docs
 weight: 1
 ---
 
-**DisplayEntities** is an utility plugin adding commands for manipulation of server-side Display Entities, Interaction Entities and (soon) Mannequins. Comes with [**PlaceholderAPI**](https://github.com/PlaceholderAPI/PlaceholderAPI) and [**MiniMessage**](https://docs.advntr.dev/minimessage/format.html)   support.
+**DisplayEntities** is an utility plugin adding commands for manipulation of server-side Display Entities, Interaction Entities and Mannequins (NPCs). Comes with [**PlaceholderAPI**](https://github.com/PlaceholderAPI/PlaceholderAPI) and [**MiniMessage**](https://docs.advntr.dev/minimessage/format.html)   support.
 
 
 <br/>
