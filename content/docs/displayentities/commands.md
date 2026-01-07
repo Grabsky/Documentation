@@ -2,7 +2,6 @@
 title: Commands
 type: docs
 weight: 2
-
 toc: false
 ---
 
@@ -728,6 +727,33 @@ Modifies response state of the specified interaction entity.
 
 <u>**Permission**</u>  
 `displayentities.command.display.edit.response`
+
+<br>
+<br>
+
+<!------  Display > Edit > Click Command  ------->
+
+<div class="ent">
+  <h4>Edit &nbsp; ⟶ &nbsp; Click Command</h4>
+  <div>
+    {{< badge color="yellow" content="Interaction">}}
+    {{< badge color="red" content="Mannequin">}}
+  </div>
+</div>
+
+<u>**Description**</u>  
+Sets a list of commands to be executed upon clicking interaction or mannequin entity.  
+Multiple commands can be separated by `$AND` keyword.
+
+<u>**Syntax**</u>  
+`/display edit (display) click_command (commands)`
+
+<u>**Permission**</u>  
+`displayentities.command.display.edit.click_command`
+
+<u>**Example(s)**</u>  
+`/display edit (display) click_command tell %player_name% Hello, %player_name%!`  
+`/display edit (display) click_command rtp %player_name% $AND tell %player_name% "You have been teleported to a random location."`  
 
 <br>
 <br>
