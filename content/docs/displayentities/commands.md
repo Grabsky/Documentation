@@ -768,7 +768,7 @@ Modifies skin of the specified mannequin entity.
 
 
 <u>**Description**</u>  
-Modifies pose of the specified mannequin entity. Pose can be **standing**, **sneaking**, **swimming**, **fall_flying**, **sleeping** or **sitting**.
+Modifies pose of the specified mannequin entity. Pose can be **standing**, **sneaking**, **swimming**, **fall_flying**, **sleeping**.
 
 <u>**Syntax**</u>  
 `/display edit (display) pose (pose)`
